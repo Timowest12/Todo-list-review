@@ -13,9 +13,7 @@ ul {
   flex-direction: row;
   justify-content: center;
 }
-.nodisplay{
-  list-style-type: none;
-}
+
 
 .container {
   background-color: rgb(247, 247, 247);
@@ -73,4 +71,7 @@ li.inpwrapper {
   text-align: center;
   padding: 15px;
   background-color: rgb(184, 179, 179);
+}
+.nodisplay{
+  list-style-type: none;
 }
