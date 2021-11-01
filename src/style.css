@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.todowrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgb(247, 247, 247);
+  display: inline-block;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  min-width: 250px;
+}
+
+.todolist {
+  margin: 0;
+}
+
+.todolist > li {
+  border: 1px solid rgba(204, 203, 203, 0.664);
+  padding: 5px;
+}
+
+.tasksoutput > li {
+  border: 1px solid rgba(204, 203, 203, 0.664);
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.optionicon {
+  margin-left: auto;
+}
+
+.tasktxt {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.material-icons-outlined {
+  font-family: 'Font Name', serif;
+}
+
+.listinp {
+  width: 100%;
+  /* stylelint-disable */
+  width: -moz-available;          /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  width: fill-available;
+  /* stylelint-enable */
+  height: 100%;
+  padding: 5px;
+}
+
+li.inpwrapper {
+  padding: 0;
+}
+
+.bottombar {
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(184, 179, 179);
+}
+
+.nodisplay {
+  list-style-type: none;
+}
