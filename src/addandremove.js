@@ -1,3 +1,4 @@
+const inp = document.querySelector('.listinp');
 function checkboxupdate() {
   const checkboxes = document.querySelectorAll('input[name=mycheckboxes]');
   checkboxes.forEach((checkbox) => {
@@ -8,7 +9,7 @@ function checkboxupdate() {
     });
   });
 }
-const inp = document.querySelector('.listinp');
+
 const tasksoutput = document.querySelector('.tasksoutput');
 const bottombar = document.querySelector('.bottombar');
 
